@@ -1,0 +1,91 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: #ffffff;
+  text-align: center;
+  font-family: Bree Serif;
+  font-size: 40px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .like-btn {
+    padding: 8px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    align-self: center;
+  }
+  .comment-btn {
+    padding: 8px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+  }
+  .share-btn {
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: none;
+  }
+}
+
+.like-btn {
+  font-family: Roboto;
+  background-color: #eab308;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  margin-right: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.comment-btn {
+  color: #323f4b;
+  background-color: #ffffff;
+  font-family: Roboto;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.share-btn {
+  color: #ffffff;
+  font-family: Roboto;
+  background-color: #1d4ed8;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 18px;
+  padding: 8px;
+}
