@@ -5,7 +5,7 @@ const Button = props => {
 
 const element = (
   <div className='bg-container'>
-    <div className=''>
+    <div className='heading-container'>
       <h1 className='heading'>Social Buttons</h1>
       <div className='buttons-container'>
         <div>
